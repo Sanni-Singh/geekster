@@ -12,3 +12,15 @@ Table Formation
 
 Form 
 [click to form](https://sanni-singh.github.io/geekster/Day-03-ClassWork/)
+
+Personal details Form
+[click to personal details form](https://sanni-singh.github.io/geekster/Day-03-HomeWork/)
+
+Tribute Page
+[click to Tribute Page](https://sanni-singh.github.io/geekster/Day-04-ClassWork/)
+
+iframe
+[click to iframe](https://sanni-singh.github.io/geekster/Day-04-HomeWork/)
+
+Small Project Using Iframe
+[click here open the project](https://sanni-singh.github.io/geekster/Weekly-Test-2-HTML/)
