@@ -25,6 +25,3 @@ iframe
 Small Project Using Iframe
 [click here open the project](https://sanni-singh.github.io/geekster/Weekly-Test-2-HTML/)
 
-this is forked repository
-
-update from github
