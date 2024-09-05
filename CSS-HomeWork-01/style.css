@@ -45,7 +45,7 @@ main{
     text-decoration: none;
     width: 80px;
     height: 35px;
-    background-color: rgb(223, 6, 6);
+    background-color: rgba(223, 6, 6, 0.852);
     color: #fff;
     border-radius: 7px;
     padding: 7px;
