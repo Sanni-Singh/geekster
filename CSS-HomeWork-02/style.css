@@ -13,7 +13,6 @@ body{
 .navigation{
     width: 100vw;
     height: 6rem;
-    border: 2px solid black;
     display: flex;
     align-items: center;
     gap: 10rem;
