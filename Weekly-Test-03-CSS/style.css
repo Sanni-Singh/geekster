@@ -56,7 +56,7 @@ body{
 }
 .content{
     width: 100vw;
-    height: 22rem;
+    height: 25rem;
 
     background-image: url(./img/man-with-shoes.jfif);
     background-size: cover;
