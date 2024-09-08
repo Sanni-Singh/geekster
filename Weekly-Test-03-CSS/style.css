@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-color: #e3dddd;
+    width: 100vw;
+}
+.main-container{
+    width: 100vw;
+}
+.heading{
+    position: sticky;
+    width: 100vw;
+    height: 3rem;
+    background-color: #000000;
+    background-image: linear-gradient(62deg, #000000 0%, #040000 19%, #7a2323 39%, #9d2626 60%, #db1818 80%, #db1313 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading .para-head{
+    font-size: 1.2rem;
+}
+.nav{
+    position: fixed;
+    width: 100vw;
+    height: 3.5rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav .search-contain{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.nav .search{
+    display: flex;
+    width: 100%;
+}
+.nav .search .input{
+    width: 100%;
+    height: 25px;
+}
+.nav  .search-logo .logo-search{
+    height: 15px;
+    margin-left: 5px;
+}
+.content{
+    width: 100vw;
+    height: 22rem;
+
+    background-image: url(./img/man-with-shoes.jfif);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.content .shoes-head{
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    left: 180px;
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.525);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    & .shoes-line{
+        font-size: 1.3rem;
+    }
+}
+.shoes-section{
+    width: 90%;
+    height: 12rem;
+    background-color: #a69e9e;
+    margin: 30px 0 0 70px;
+
+    & .shoe-trending{
+        width: 98%;
+        padding-top: 15px;
+        margin: 15px 0 0 15px;
+        color:rgb(56, 55, 55);
+        height: 2rem;
+    }
+
+    & .various-shoe{
+        display: flex;
+    }
+    & .shoes-box{
+        height: 8rem;
+        margin-top: 15px;
+        margin-left: 15px;
+        width: 8vw;
+        border: 0.5px solid rgb(83, 78, 78);
+
+        & .img{
+            width: 100%;
+            height: 30px;
+
+            & .img-air-7{
+                width: 100%;
+                height: 100px;
+            }
+        }
+        & .name-shoe{
+            width: 100%;
+            height: 26px;
+            background-color: #5c5a5a;
+            margin-top: 70px;
+        }
+    }
+}
+.hero{
+    width: 100vw;
+    height: 700px;
+    background: linear-gradient(90deg, rgb(48, 48, 48) 0%, rgb(16, 16, 16) 50%, rgb(9, 9, 9) 100%);
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .hero-box{
+        width: 80%;
+        height: 75%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        background: linear-gradient(90deg, rgb(32, 32, 32) 0%, rgb(88, 20, 20) 50%, rgb(178, 20, 20) 100%);
+        
+        & .question{
+            width: 40%;
+            margin: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            & h2{
+                font-size: 2rem;
+            }
+            & p{
+                font-size: 1.3rem;
+            }
+        }
+
+        & .hero-img{
+            height: fit-content;
+            margin: 40px;
+             
+            & .img-tag{
+                width: 250px;
+            height: 250px;
+            margin: 20px;
+            border-radius: 50%;
+            box-shadow: 8px 5px 15px 5px rgba(245, 244, 244, 0.877);
+            }
+            & .img-tag:hover{
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}
