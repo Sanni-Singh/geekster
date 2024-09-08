@@ -7,12 +7,12 @@ body{
     color: #fff;
     background-color: #e3dddd;
     width: 100vw;
+    overflow-x: hidden;
 }
 .main-container{
     width: 100vw;
 }
 .heading{
-    position: sticky;
     width: 100vw;
     height: 3rem;
     background-color: #000000;
@@ -26,7 +26,6 @@ body{
     font-size: 1.2rem;
 }
 .nav{
-    position: fixed;
     width: 100vw;
     height: 3.5rem;
     background-color: black;
@@ -34,6 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    position: sticky;
 }
 
 .nav .search-contain{
@@ -55,12 +55,13 @@ body{
     margin-left: 5px;
 }
 .content{
-    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
     height: 25rem;
 
     background-image: url(./img/man-with-shoes.jfif);
-    background-size: cover;
-    background-position: center;
     z-index: -1;
 }
 .content .shoes-head{
