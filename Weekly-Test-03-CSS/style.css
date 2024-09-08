@@ -34,6 +34,8 @@ body{
     align-items: center;
     gap: 2rem;
     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .nav .search-contain{
@@ -55,20 +57,18 @@ body{
     margin-left: 5px;
 }
 .content{
+    
+    height: 25rem;
+    background-image: url(./img/man-with-shoes.jfif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
-    height: 25rem;
-
-    background-image: url(./img/man-with-shoes.jfif);
-    z-index: -1;
 }
 .content .shoes-head{
     position: relative;
-    z-index: 1;
     top: 100px;
-    left: 180px;
+    left: 120px;
+    z-index: 0;
     width: 60%;
     height: 50%;
     padding: 20px;
