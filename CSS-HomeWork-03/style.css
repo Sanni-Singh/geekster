@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 20px auto;
+    width: 30%;
+    color: #7c7878;
+}
+.heading{
+    color: black
+}
+.image{
+    margin: 20px auto;
+    width: fit-content;
+}
+.video{
+    width: 30%;
+    margin: 20px auto;
+}
+.video iframe{
+    width: 455px;
+    height: 290px;
+}
