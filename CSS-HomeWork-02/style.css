@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+    /* width: 100vw; */
+    /* overflow-x: hidden; */
 }
 .main-container{
-    width: 100vw;
+    width: 100%;
    
 }
 .navigation{
-    width: 100vw;
+    width: 100%;
     height: 6rem;
     display: flex;
     align-items: center;
@@ -33,7 +34,7 @@ body{
 
 }
 .main{
-    width: 100vw;
+    width: 100%;
     height: 31rem;
     
 
@@ -43,12 +44,13 @@ body{
     }
 }
 .boxes{
-    width: 100vw;
+    width: 100%;
     height: 32rem;
     display: flex;
     gap: 3rem;
-    margin-top:25px;
-    margin-left: 25px;
+    padding: 20px;
+    /* margin-top:25px;
+    margin-left: 25px; */
 
     & .image-box{
         width: 30%;
@@ -71,7 +73,7 @@ body{
     }
 }
 .footer{
-    width: 100vw;
+    width: 100%;
     height: 30rem;
     background-color: black;
     display: flex;
