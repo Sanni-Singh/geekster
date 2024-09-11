@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    overflow: hidden;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    transform: skew(0 , 10deg);
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+}
+
+.container{
+    width: 84%;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.shoe-box{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    left: 130px;
+    color: #fff;
+    padding: 30px 0 0 30px;
+    
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+
+    box-shadow: 0px 0px 10px black;
+
+}
+.contain{
+    width: 31vw;
+    height: 15rem;
+
+    & >h2 {
+        font-size: 2rem;
+    }
+    .para1{
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+    .para2{
+        margin-top: 40px;
+    }
+}
+
+.img{
+    position: absolute;
+    top: 80px; 
+    left: 910px;
+    .image{
+        width: 600px;
+        height: 300px;
+    }
+    .image:hover{
+        position: relative;
+        right: 300px;
+        width: 900px;
+        height: 520px;
+    }
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(237, 205, 211);
+}
+.heading{
+    width: 100%;
+    height: 19rem;
+    -webkit-box-shadow: 1px 5px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 5px 5px -2px rgba(0,0,0,0.75);
+box-shadow: 1px 5px 5px -2px rgba(0,0,0,0.75);
+    .back-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .navigation input{
+        position: absolute;
+        top: 80px;
+        border: none;
+        border-radius: 10px;
+        left: 220px;
+        width: 65rem;
+        height: 3.5rem;
+        color: #fff;
+        background-color: rgb(96, 20, 20);
+
+
+        
+    }
+     .navigation input::placeholder{
+        padding-left: 10px;
+        color: #fff;
+     }
+}
+.image-box{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+
+    .img{
+        width: 150px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+
+        img{
+            width: 100%;
+            border-radius: 50%;
+            height: 80%;
+            -webkit-box-shadow: -4px 18px 7px -8px rgba(0,0,0,0.55);
+-moz-box-shadow: -4px 18px 7px -8px rgba(0,0,0,0.55);
+box-shadow: -4px 18px 7px -8px rgba(0,0,0,0.55);
+        }
+        
+        img:hover{
+            width: 105%;
+            border-radius: 50%;
+            height: 85%;
+            -webkit-box-shadow: -4px 24px 13px -5px rgba(0,0,0,0.55);
+-moz-box-shadow: -4px 24px 13px -5px rgba(0,0,0,0.55);
+box-shadow: -4px 24px 13px -5px rgba(0,0,0,0.55);
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+}
+.content1{
+    width: 90%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 30px;
+    color: rgb(152, 59, 90);
+    background-color: rgb(246, 180, 201);
+    -webkit-box-shadow: 1px 5px 18px -5px rgba(125,29,74,1);
+-moz-box-shadow: 1px 5px 18px -5px rgba(125,29,74,1);
+box-shadow: 1px 5px 18px -5px rgba(125,29,74,1);
+    
+
+    .para{
+        margin-top: 20px;
+    }
+}
+.contain2{
+    width: 90%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 30px;
+    color: rgb(152, 59, 90);
+    background-color: rgb(246, 180, 201);
+    -webkit-box-shadow: 1px 5px 18px -5px rgba(125,29,74,1);
+-moz-box-shadow: 1px 5px 18px -5px rgba(125,29,74,1);
+box-shadow: 1px 5px 18px -5px rgba(125,29,74,1);
+
+    .order{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 5px;
+    }
+    p{
+        padding-top: 20px;
+    }
+}
