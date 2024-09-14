@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.box1{
+    grid-area: box1;
+    background-color: blue;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.box2{
+    grid-area: box2;
+    
+    background-color: green;
+}
+.box3{
+    grid-area: box3;
+    background-color: blue;
+}
+.box4{
+    grid-area: box4;
+    background-color: brown;
+}
+.box5{
+    grid-area: box5;
+    background-color: #7be822;
+}
+.container{
+    margin: 40px auto;
+    width: 75%;
+    height: 85vh;
+    background-color: #333;
+    display: grid;
+    grid-template-areas:
+    'box1 box1 box2 box3 '
+    'box4 box5 box5 box3';
+    gap: 1.5rem;
+}
