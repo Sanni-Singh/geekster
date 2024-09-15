@@ -26,7 +26,10 @@ body{
         justify-content: space-between;
         align-items: center;
 
-
+        .nav-icon:hover{
+            cursor: pointer;
+            color: #bebcbc;
+        }
         .nav-list .order-list{
             align-items: end;
             display: flex;
@@ -36,16 +39,16 @@ body{
            li > a{
             text-decoration: none;
             color: #fff;
-            font-size: 1.2rem;
-            
+            font-size: 1.2rem;         
+           }
 
-            
+           li > a:hover{
+            color: #bebcbc;
            }
         }
     }
 
 }
-
 .main{
     position: relative;
     width: 100%;
@@ -54,6 +57,9 @@ body{
     background-position: center 65%;
     background-size: cover;
     background-attachment: fixed;
+    
+
+    
 
     .header-section{
         position: absolute;
@@ -340,3 +346,9 @@ body{
         }
     }
 }
+
+/* @media screen and(min-width:390px){
+    body{
+        background-color: red;
+    }
+} */
