@@ -104,6 +104,19 @@ body{
     }
 }
 
+main::after{
+    content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.3);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        z-index: 0;
+        pointer-events: none;
+}
+
 .services{
     width: 100%;
     display: flex;
