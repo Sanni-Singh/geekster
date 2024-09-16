@@ -191,7 +191,8 @@ main::after{
 
 .about-us{
     width: 77%;
-    margin: 0 auto;
+    padding-top:1.4rem;
+    margin:  auto;
 
     .about-head{
         margin: 70px;
@@ -360,5 +361,12 @@ main::after{
             background-color: rgb(41, 40, 40);
             cursor: pointer;
         }
+    }
+}
+
+@media screen and(max-width:390px){
+    .services .boxes{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
     }
 }
