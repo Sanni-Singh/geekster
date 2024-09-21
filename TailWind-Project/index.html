@@ -7,34 +7,36 @@
     <script src="https://kit.fontawesome.com/4d6ba9299f.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body >
     <div class="w-[100%]">
-        <main class="w-full h-screen">
+        <main class="w-full">
             <div class=" relative w-full h-screen bg-[url('./img/bgc.avif')] bg-no-repeat bg-center bg-top">
                 <div class=" w-full h-full bg-black opacity-75 absolute top-0"></div>
             </div>
-            <nav class="flex justify-between w-full  p-5 absolute top-0 text-white">
+            <nav class="flex justify-between items-center w-full  p-5 absolute top-0 text-white ">
                 <div>
                     <p class="text-xl font-bold">THE NOVEMBER ROOM</p>
                 </div>
-                <div class="flex gap-7 text-orange-500 items-center text-xl">
-                    <i class="fa-brands fa-facebook "></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                <div class="text-orange-500  text-2xl hidden sm:block">
+                    <i class="fa-brands fa-facebook mr-3"></i>
+                    <i class="fa-brands fa-twitter mr-3"></i>
+                    <i class="fa-brands fa-linkedin mr-3"></i>
                 </div>
+
+                <div class="sm:hidden"><i class="fa-solid fa-bars"></i></div>
             </nav>
-            <div class="absolute top-[35%] left-[25%]   flex justify-between items-center flex-col w-[800px] text-white">
-                <p class="text-5xl font-bold">Feel the <span class="text-orange-500">Power</span></p>
-                <p class="mt-5 text-xl">Welcome to The November Room. We are a fitness and training center that focuses on pushing you to your absolute limit. Download our complete brochure to get started today!</p>
-                <button class="mt-6 text-blue-400 border-[1px] w-[200px] h-[50px] border-orange-300 rounded-md hover:bg-orange-500 hover:text-white">Download Brochure</button>
+            <div class="absolute top-[30%] p-3 min-[800px]:w-[800px] min-[800px]:top-[50%] min-[800px]:left-[50%] min-[800px]:translate-x[-50%] min-[800px]:translate-x-[-50%] text-white text-center">
+                <p class="text-5xl font-bold text-center">Feel the <span class="text-orange-500">Power</span></p>
+                <p class="mt-5 text-lg text-center text-zinc-400">Welcome to The November Room. We are a fitness and training center that focuses on pushing you to your absolute limit. Download our complete brochure to get started today!</p>
+                <button class=" text-center mt-6 text-blue-400 border-[1px] w-[200px] h-[50px] border-orange-300 rounded-md hover:bg-orange-500 hover:text-white">Download Brochure</button>
             </div>
         </main>
-        <section class="w-full h-[900px] pt-[100px] bg-black ">
-            <div class="w-full h-[700px]  flex ">
-                <div class="w-1/2 h-full">
-                    <img class="h-full w-[420px] mx-auto rounded-xl" src="./img/ladki.avif" alt="">
+        <section class="w-full pt-[100px] bg-black ">
+            <div class="w-full  flex flex-col items-center md:flex-row ">
+                <div class="w-1/2">
+                    <img class="h-full w-[420px] h-[300px] mx-auto rounded-xl" src="./img/ladki.avif" alt="">
                 </div>
-                <div class="w-[500px] h-[500px] mx-auto my-auto p-5">
+                <div class="w-[95%] md:w-[500px] mx-auto my-auto p-5">
                     <p class="text-orange-500">About our gym</p>
                     <h1 class="font-bold text-white text-4xl">SAFE BODY BUILDING</h1>
                     <p class="text-white text-lg mt-2">The extension comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
@@ -54,6 +56,82 @@
                 </div>
             </div>
         </section>
+        <section class="mt-[60px]">
+            <div class="flex justify-center  flex-col items-center">
+                <div class="text-center w-[50%] flex flex-col gap-4">
+                    <h1 class="text-black text-4xl font-bold">MEET OUR TRAINERS</h1>
+                    <p class="text-lg text-gray-500">Our trainers are are here to dedicate the time and effort that you need to get in the best shape of your life</p>
+                </div>
+            </div>
+            <div class="mt-[80px] w-[95%]  mx-auto flex justify-around flex-wrap">
+                <div class="mb-10">
+                    <div class="w-[300px] ">
+                        <img src="https://images.unsplash.com/photo-1597347343908-2937e7dcc560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="" class="w-[250px] rounded-md mx-auto">
+                    </div>
+                    <div class="w-[300px] mt-6">
+                        <p class="text-center font-bold text-2xl">Mr rogers</p>
+                        <p class="text-center text-gray-500">Neighborhood Watchman</p>
+                    </div>
+                </div>
+                <div class="mb-10">
+                    <div class="w-[300px] ">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="w-[250px] rounded-md mx-auto">
+                    </div>
+                    <div class="w-[300px] mt-6">
+                        <p class="text-center font-bold text-2xl">Strawberry Shortcake</p>
+                        <p class="text-center text-gray-500">Cupcake Smasher</p>
+                    </div>
+                </div>
+                <div class="mb-10">
+                    <div class="w-[300px]">
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="" class="w-[250px] rounded-md mx-auto">
+                    </div>
+                    <div class="w-[300px] mt-6">
+                        <p class="text-center font-bold text-2xl">Ronald McDonald</p>
+                        <p class="text-center text-gray-500">Double Whoopass With Cheese</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-[60px] bg-black text-white">
+            <div class="flex justify-center  flex-col items-center">
+                <div class="text-center w-[45%] flex flex-col gap-4 mt-[80px]">
+                    <h1 class="text-4xl font-bold">Contact Us</h1>
+                    <p class="text-lg">Contact us to ask any questions, aquire a membership, talk to our trainers or anything else</p>
+                </div>
+            </div>
+            <div class="mt-[80px] w-[52%]  mx-auto rounded-md p-10 bg-orange-500">
+                <div>
+                    <h2 class="text-3xl">Want to work with us?</h2>
+                    <p class="mt-2">Complete this form and we will get back to you in 24 hours.</p>
+                </div>
+                <form action="" class="mt-[30px] flex flex-col">
+                    <label for="">Full Name</label>
+                    <input type="text" placeholder="Full Name" class=" mt-[10px] p-[15px] w-[95%] h-[40px] rounded-md">
+                    <label for="" class="mt-[10px]">Email</label>
+                    <input type="email" name="" id="" placeholder="Email" class="mt-[10px] p-[15px] w-[95%] h-[40px] rounded-md">
+                    <label for="">Message</label>
+                    <textarea name="" id="" placeholder="Type a message..." class="mt-[10px] p-[15px] w-[95%] h-[120px] rounded-md"></textarea>
+                    <button class="w-[150px] h-[50px] mt-[20px] mx-auto bg-black rounded-md font-bold">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+        <footer class="bg-[#D4D4D8]">
+            <div class="w-[40%] p-10 ">
+                <h2 class="text-3xl">Follow us on Social Media</h2>
+                <p class="text-lg">Find us on any of these platforms, we respond 1-2 business days.</p>
+                <div class="flex gap-4 mt-[30px] items-center">
+                    <i class="flex fab fa-twitter text-blue-400 w-[30px] h-[30px] bg-white rounded-2xl text-center items-center justify-center"></i>
+                    <i class="flex fab fa-facebook-square text-blue-700 w-[30px] h-[30px] bg-white rounded-2xl text-center items-center justify-center"></i>
+                    <i class="flex fab fa-dribbble text-pink-500 w-[30px] h-[30px] bg-white rounded-2xl text-center items-center justify-center"></i>
+                    <i class="flex fab fa-github w-[30px] h-[30px] bg-white rounded-2xl text-center items-center justify-center"></i>
+                    
+                </div>
+            </div>
+            <div class="flex justify-center ">
+                <p class="mb-[30px]">Copyright © 2020 THE NOVEMBER ROOM</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
